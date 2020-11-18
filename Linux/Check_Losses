@@ -1,0 +1,4 @@
+#!/bin/bash
+#This script generates Roulette _Losses file.
+#This script checks for losses (Negative dollars) from Win_Loss_Player_Data
+grep -E "*-\$*" 031*
